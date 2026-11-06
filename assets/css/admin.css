@@ -1,0 +1,10 @@
+/* WP A11y Kit — Admin Styles */
+#wpaak-score-banner { background: #0a2540; color: #fff; padding: 24px 28px; border-radius: 12px; margin: 20px 0; display: flex; align-items: center; gap: 24px; }
+#wpaak-score-num { font-size: 3rem; font-weight: 900; color: #3fb950; line-height: 1; min-width: 72px; text-align: center; }
+.wpaak-score-good { color: #3fb950 !important; }
+.wpaak-score-warn { color: #e3b341 !important; }
+.wpaak-score-bad { color: #f78166 !important; }
+.column-wpaak_alt { width: 180px; }
+.wpaak-wrap .form-table input[type="checkbox"] { width: 18px; height: 18px; margin-right: 8px; accent-color: #635bff; }
+#wpaak-ab-label { font-size: 13px; }
+@media screen and (max-width: 782px) { #wpaak-score-banner { flex-direction: column; } }
